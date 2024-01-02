@@ -1,0 +1,29 @@
+
+.recipes-pic, #recipes-ul {
+    text-align: center;
+    border-style: groove;
+    border-color: rgb(0, 0, 0);
+}
+
+#recipes-ul {
+    padding: 0;
+    margin: 0;
+    list-style-position: inside; /* Adjust list item marker position */
+}
+
+#recipes-ul li {
+    
+    text-align: center; /* Center the text inside each list item */
+}
+
+.about{
+    text-align: center;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+}
+
+.link-odin{
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+}
