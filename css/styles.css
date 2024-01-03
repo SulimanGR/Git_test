@@ -6,6 +6,7 @@
 }
 
 .recipes-pic{
+    background: linear-gradient(to left, #5b3283, #3580ab, #5db5b3); 
     padding: 0px;
     border: 2px solid black;
     width: 600px;
@@ -23,13 +24,15 @@
 }
 
 .about-button{
-    background-color: aquamarine;
-    padding: 5px;
+    background-color: #357a96;
+    color: white;
+    padding: 10px;
     height: 0px;
     width: 50px;
     margin: 10px auto; /* add the auto margin to make it centerd not going to the left*/
     border-radius: 10px; /*to make the edges rounded */
     border: 1px solid black;
+    text-decoration: none; /* removed the underline from the button*/
 }
 
  .about-button:hover{    /*now the button is interact when you hover */
@@ -44,13 +47,16 @@
     border-style: solid;
     margin: 100px auto;
     width: 800px;
+    background: linear-gradient(to left, #5b3283, #3580ab, #5db5b3);
 }
 
 .link-odin{
-    padding: 0.30%;
+    padding: 0.50%;
+    border: 1px solid black;
     color: white;
     background-color: #357a96;
-    border-radius: 10px;
+    border-radius: 10px; /* make the edges rounded*/
+    text-decoration: none; /* removed the underline from the button*/
 }
 
 .link-odin:hover{   /*now the button is interact when you hover */
