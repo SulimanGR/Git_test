@@ -1,6 +1,7 @@
 
 .recipes-pic, .recipes-ul {
     text-align: center;
+    font-family: cursive;
     width: 600px;
     margin: 100px auto;
 }
@@ -10,7 +11,7 @@
     padding: 0px;
     border: 2px solid black;
     width: 600px;
-    height: 1000px;
+    height: 1050px;
 }
 
 .recipes-ul {
@@ -33,6 +34,7 @@
     border-radius: 10px; /*to make the edges rounded */
     border: 1px solid black;
     text-decoration: none; /* removed the underline from the button*/
+    position: relative; top: 20px;
 }
 
  .about-button:hover{    /*now the button is interact when you hover */
@@ -43,11 +45,13 @@
 
 .about-page{
     text-align: center;
+    font-family: cursive;
     border-color: rgb(0, 0, 0);
     border-style: solid;
     margin: 100px auto;
     width: 800px;
     background: linear-gradient(to left, #5b3283, #3580ab, #5db5b3);
+    position: relative; top: 350px;
 }
 
 .link-odin{
