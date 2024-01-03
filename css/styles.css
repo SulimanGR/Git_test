@@ -2,7 +2,6 @@
 .recipes-pic, .recipes-ul {
     text-align: center;
     font-family: cursive;
-    width: 600px;
     margin: 100px auto;
 }
 
@@ -24,13 +23,16 @@
     text-align: center; /* Center the text inside each list item */
 }
 
+.SEU-logo{ /*This CSS is used in both pages main page and about page*/
+    position: absolute; right: 100px; top: 20px;
+    z-index: -1;
+    height: 200px;
+}
+
 .about-button{
     background-color: #357a96;
     color: white;
     padding: 10px;
-    height: 0px;
-    width: 50px;
-    margin: 10px auto; /* add the auto margin to make it centerd not going to the left*/
     border-radius: 10px; /*to make the edges rounded */
     border: 1px solid black;
     text-decoration: none; /* removed the underline from the button*/
@@ -43,18 +45,18 @@
     width: 50px;
 }
 
+/* the about page css vvvvv */
+
 .about-page{
     text-align: center;
     font-family: cursive;
-    border-color: rgb(0, 0, 0);
-    border-style: solid;
-    margin: 100px auto;
+    border: 4px black solid;
+    margin: 500px auto; /*I made the margin 500 to make the text in the middle postion conflict with the logo*/
     width: 800px;
     background: linear-gradient(to left, #5b3283, #3580ab, #5db5b3);
-    position: relative; top: 350px;
 }
 
-.link-odin{
+.link-to-odin{
     padding: 0.50%;
     border: 1px solid black;
     color: white;
@@ -63,8 +65,6 @@
     text-decoration: none; /* removed the underline from the button*/
 }
 
-.link-odin:hover{   /*now the button is interact when you hover */
+.link-to-odin:hover{   /*now the button is interact when you hover */
     background-color: lightblue;
-    height: 40px;
-    width: 60px;
 }
