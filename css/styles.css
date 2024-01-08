@@ -1,4 +1,4 @@
-
+/* main page */
 .recipes-pic, .recipes-ul {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -9,9 +9,14 @@
 .recipes-pic{
     background: linear-gradient(to left, #000000, #4d4d4d, #000000); 
     padding: 0px;
+    border-radius: 10px;
     border: 4px solid black;
     width: 600px;
-    height: 1050px;
+    height: 1100px;
+}
+
+.pic{
+    border-radius: 10px;
 }
 
 .recipes-ul {
@@ -40,11 +45,46 @@
     position: relative; top: 20px;
 }
 
- .about-button:hover{    /*now the button is interact when you hover */
+.about-button:hover{    /*now the button is interact when you hover */
     background-color: lightblue; 
     height: 30px;
     width: 50px;
 }
+
+.test-button{
+    background-color: #357a96;
+    color: white;
+    padding: 10px;
+    border-radius: 10px; /*to make the edges rounded */
+    border: 1px solid black;
+    text-decoration: none; /* removed the underline from the button*/
+    position: absolute; bottom: 150px; left: 1220px;
+}
+
+.test-button:hover{    /*now the button is interact when you hover */
+    background-color: lightblue; 
+    height: auto;
+    width: auto;
+}
+
+.js-button{
+    background-color: #357a96;
+    color: white;
+    padding: 10px;
+    border-radius: 10px; /*to make the edges rounded */
+    border: 1px solid black;
+    text-decoration: none; /* removed the underline from the button*/
+    position: absolute; bottom: 100px; left: 1215px;
+}
+
+.js-button:hover{    /*now the button is interact when you hover */
+    background-color: lightblue; 
+    height: auto;
+    width: auto;
+}
+
+
+
 
 /* the about page css vvvvv */
 
@@ -56,6 +96,7 @@
     margin: 500px auto; /*I made the margin 500 to make the text in the middle postion conflict with the logo*/
     width: 800px;
     background: linear-gradient(to left, #000000, #383838, #000000);
+    border-radius: 10px;
 }
 
 .link-to-odin{
@@ -70,3 +111,34 @@
 .link-to-odin:hover{   /*now the button is interact when you hover */
     background-color: lightblue;
 }
+
+/* the flex box page */
+
+.flex-page{
+    background: linear-gradient(to left, #000000, #4d4d4d, #000000);  
+}
+
+.container {
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+    padding: 50px;
+    background: plum;
+    border: 4px solid indigo;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    
+  }
+  
+  .item {
+    width: 60px;
+    height: 60px;
+    border: 4px solid darkslategray;
+    background: skyblue;
+    border-radius: 10px
+  }
+
+  /* the JavaScript page */
