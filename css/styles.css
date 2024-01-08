@@ -42,7 +42,7 @@
     border-radius: 10px; /*to make the edges rounded */
     border: 1px solid black;
     text-decoration: none; /* removed the underline from the button*/
-    position: relative; top: 20px;
+    position: relative; top: 20px; left: 150px;
 }
 
 .about-button:hover{    /*now the button is interact when you hover */
@@ -51,17 +51,17 @@
     width: 50px;
 }
 
-.test-button{
+.flex-button{
     background-color: #357a96;
     color: white;
     padding: 10px;
     border-radius: 10px; /*to make the edges rounded */
     border: 1px solid black;
     text-decoration: none; /* removed the underline from the button*/
-    position: absolute; bottom: 150px; left: 1220px;
+    position: relative; top: 70px; left: 60px;
 }
 
-.test-button:hover{    /*now the button is interact when you hover */
+.flex-button:hover{    /*now the button is interact when you hover */
     background-color: lightblue; 
     height: auto;
     width: auto;
@@ -74,7 +74,7 @@
     border-radius: 10px; /*to make the edges rounded */
     border: 1px solid black;
     text-decoration: none; /* removed the underline from the button*/
-    position: absolute; bottom: 100px; left: 1215px;
+    position: relative; top: 120px; right: 70px;
 }
 
 .js-button:hover{    /*now the button is interact when you hover */
